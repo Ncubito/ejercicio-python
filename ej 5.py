@@ -1,0 +1,7 @@
+PrimerInversor=int(input("La primera persona invirtio "))
+SegundoInversor=int(input("La segunda persona invirtio "))
+TercerInversor=int(input("La tercera persona invirtio "))
+CantTotalInversion=(PrimerInversor+SegundoInversor+TercerInversor)
+print("La primera persona invirtio", PrimerInversor*100/CantTotalInversion)
+print("La segunda persona invirtio", SegundoInversor*100/CantTotalInversion)
+print("La tercera persona invirtio", TercerInversor*100/CantTotalInversion)
